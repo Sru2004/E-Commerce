@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/drinkdeligth/static/css/main.0baba5af.css",
+    "main.js": "/drinkdeligth/static/js/main.6d3cb247.js",
+    "static/media/anime-img1.png": "/drinkdeligth/static/media/anime-img1.05398151bbdacd2c6b4d.png",
+    "static/media/marvel-img1.png": "/drinkdeligth/static/media/marvel-img1.449cdbc1edf6aac3132a.png",
+    "static/media/gym-img1.png": "/drinkdeligth/static/media/gym-img1.b4aefac18ebe26665240.png",
+    "static/media/p2.png": "/drinkdeligth/static/media/p2.f1769e9b088f0a2f87f2.png",
+    "static/media/p1.png": "/drinkdeligth/static/media/p1.22aa351db4123390a7b1.png",
+    "static/media/todbag.png": "/dv/static/media/todbag.f29bf87be583353a0aeb.png",
+    "static/media/product1.png": "/drinkdeligth/static/media/product1.cc39cf5200880843086f.png",
+    "index.html": "/drinkdeligth/index.html",
+    "main.0baba5af.css.map": "/drinkdeligth/static/css/main.0baba5af.css.map",
+    "main.6d3cb247.js.map": "/drinkdeligth/static/js/main.6d3cb247.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0baba5af.css",
+    "static/js/main.6d3cb247.js"
+  ]
+}
