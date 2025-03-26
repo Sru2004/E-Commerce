@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./logo.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Drink Delight is an E-commerce Website for Anime Enthusiasts" />
+    <link rel="apple-touch-icon" href="/drinkdelight/logo192.png" />
+    <link rel="manifest" href="/drinkdelight/manifest.json" />
+    
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Main CSS -->
+    <link href="/drinkdelight/static/css/main.0baba5af.css" rel="stylesheet" />
+
+    <title>Drink Delight</title>
+    <style>
+        /* Custom Style */
+        :root {
+            --primary-color: #ff6f61;
+            --secondary-color: #4a4e69;
+            --background-color: #f7f7f9;
+            --text-color: #333;
+            --font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            color: var(--text-color);
+            margin: 0;
+            background: linear-gradient(135deg, var(--primary-color) 50%, var(--background-color) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        #root {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            color: var(--secondary-color);
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Loading animation */
+        .loading {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-top: 20px;
+            animation: fadeInOut 1.5s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+    <script type="text/javascript">
+        !function(n){
+            if("/"===n.search[1]){
+                var a=n.search.slice(1).split("&").map((function(n){
+                    return n.replace(/~and~/g,"&")
+                })).join("?");
+                window.history.replaceState(null, null, n.pathname.slice(0, -1) + a + n.hash)
+            }
+        }(window.location);
+    </script>
+</head>w
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <img src="/drinkdelight/logo192.png" alt="Drink Delight Logo" style="width: 80px; height: 80px; margin-bottom: 20px;" />
+        <h1>Welcome to Drink Delight</h1>
+        <p>Your ultimate destination for anime-inspired beverages and merchandise!</p>
+        <div class="loading">Loading, please wait...</div>
+    </div>
+    <script defer="defer" src="/drinkdelight/static/js/main.6d3cb247.js"></script>
+</body>
+</html>

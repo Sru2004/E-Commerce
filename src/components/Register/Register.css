@@ -1,0 +1,88 @@
+@import url('../../config/config.css');
+
+.register-page-outer-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    font-family: "Amaranth", sans-serif;
+}
+
+.register-main-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #949494;
+    width: fit-content;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+
+.auth-links{
+    border: 1px solid #949494;
+    border-radius: 5px;
+    margin: 0px 2px;
+    color: black;
+    padding: 3px 0px;
+}
+.auth-option-block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+}
+
+.register-nav-link{
+    color: white;
+    background-color: #3D3D3D;
+}
+.field-contain-div{
+    display: grid;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.main-field-div{
+    margin-top: 20px;
+    width: 400px;
+}
+.continue-btn-main-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sign-up-btn{
+    outline: none;
+    border: none;
+    background-color: #3D3D3D;
+    color: white;
+    padding: 5px 0px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.login-nav-link{
+    color: white;
+    background-color: #3D3D3D;
+}
+.field-contain-div input{
+    font-family: "Amaranth", sans-serif;
+    font-size: 16px;
+    padding: 3px 0px;
+}
+
+@media screen and (max-width: 468px) {
+    .main-field-div{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .main-field-div{
+        width: auto;
+    }
+}

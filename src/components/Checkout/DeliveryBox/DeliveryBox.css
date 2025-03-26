@@ -1,0 +1,27 @@
+@import '../../../config/config.css';
+
+.delivery-box-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.cust-name-text{
+    font-family: "Amaranth", sans-serif;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.add-line{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.delivery-icons{
+    font-size: 20px;
+    margin: 0px 5px;
+}

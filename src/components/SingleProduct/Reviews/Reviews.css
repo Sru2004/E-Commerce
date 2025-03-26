@@ -1,0 +1,53 @@
+@import "../../../config/config.css";
+
+.review-main-div{
+    display: flex;
+    border: 2px solid #4e4e4e;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: "Amaranth", sans-serif;
+    margin: 10px 0px;
+    width: 900px;
+}
+.reviews-left-div{
+    font-family: "Amarante", cursive;
+    background-color: #D9D9D9;
+    padding: 8px 16px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 21px;
+    font-size: 20px;
+}
+.reviews-right-div{
+    margin-left: 15px;
+}
+.review-r1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.review-r1-left{
+    display: flex;
+    align-items: center;
+}
+.cust-name{
+    font-size: 19px;
+}
+.review-date{
+    margin-left: 15px;
+    color: #909090;
+}
+.review-r2{
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.review-icon{
+    font-size: 18px;
+    margin: 0px 4px;
+}
+
+@media screen and (max-width: 938px) {
+    .review-main-div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+@import '../../config/config.css';
+
+.payment-page-main-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    font-family: "Carter One", cursive;
+    font-size: 30px;
+}
+
+.shop-more-btn{
+    font-family: "Amarante", cursive;
+    font-size: 18px;
+}

@@ -1,0 +1,10 @@
+@import url('../../config/config.css');
+
+.error-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    font-family: "Carter One", cursive;
+    font-size: 20px;
+}

@@ -1,0 +1,165 @@
+@import '../../config/config.css';
+
+.checkout-section-heading{
+    font-family: "Carter One", cursive;
+    color: black;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.checkout-section-box{
+    border: 1px solid #949494;
+    width: 500px;
+    margin: 10px 25px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.checkout-section-subheading{
+    font-family: "Amaranth", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.checkout-section-subheading-group{
+    margin-top: 20px;
+}
+
+.grand-total-text{
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.grand-total-text span{
+    color: #000cff;
+}
+
+.checkout-btn-group{
+    display: flex;
+    justify-content: center;
+}
+
+.add-new-address-btn{
+    font-family: "Amaranth", sans-serif;
+    font-size: 16px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.payment-option-text{
+    font-family: "Amaranth", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.checkout-page-main-div{
+    margin-bottom: 30px;
+}
+.empty-address-div{
+    margin: 15px;
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    font-size: 20px;
+    color: #ff4343;
+}
+
+.add-address-page-heading{
+    font-family: "Carter One", cursive;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.add-address-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    font-family: "Amaranth", sans-serif;
+}
+
+.add-address-page-main-div{
+    display: grid;
+    font-family: "Amaranth", sans-serif;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #949494;
+    width: fit-content;
+    width: 500px;
+    border-radius: 7px;
+    padding: 20px 15px;
+    margin-left: 25px;
+}
+
+.main1-field-div{
+    width: 450px;
+}
+
+.field-contain-div input{
+    font-family: "Amaranth", sans-serif;
+    font-size: 16px;
+    padding: 3px 0px;
+}
+.field-contain-div{
+    display: grid;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.address-btn-main-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.add-address-btn{
+    outline: none;
+    border: none;
+    background-color: #3D3D3D;
+    color: white;
+    padding: 5px 0px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:545px) {
+    .checkout-section-box{
+        width: 400px;
+    }
+    .add-address-page-main-div{
+        width: 400px;
+    }
+    .main1-field-div {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:448px) {
+    .checkout-section-box{
+        width: 300px;
+    }
+    .add-address-page-main-div{
+        width: 300px;
+    }
+    .main1-field-div {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:342px) {
+    .checkout-section-box{
+        width: 200px;
+    }
+    .add-address-page-main-div{
+        width: 200px;
+    }
+    .main1-field-div {
+        width: 180px;
+    }
+}

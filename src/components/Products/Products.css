@@ -1,0 +1,55 @@
+@import "../../config/config.css";
+
+.products-main-div{
+    padding: 15px 0px;
+}
+.products-category-heading{
+    font-family: 'Carter One', cursive;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.product-collection-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.see-more-div{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.see-more-btn{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    font-family: 'Amarante', cursive;
+}
+
+.no-products-div{
+    font-family: "Amaranth", sans-serif;
+    font-size: 20px;
+    color: brown;
+    margin: 20px 0px;
+    height: 50vh;
+}
+
+@media screen and (max-width: 907px) {
+    .product-collection-div{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .product-collection-div{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

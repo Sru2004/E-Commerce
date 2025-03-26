@@ -1,0 +1,56 @@
+@import "../../../config/config.css";
+
+.special-offer-section-div{
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+.special-offer-heading{
+    font-family:'Carter One', cursive;
+    font-size: 20px;
+}
+.special-offer-text{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 15px;
+    color: #212121;
+    margin: 4px 0px;
+}
+.email-input{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+    width: 350px;
+    margin: 10px 0px;
+    background-color: white;
+}
+.send-email-btn{
+    background-color: #3D3D3D;
+    color: white;
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+.social-media-icons{
+    margin: 0px 6px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 444px) {
+    .email-input{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 381px) {
+    .email-input{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .email-input{
+        width: 200px;
+    }
+}

@@ -1,0 +1,236 @@
+@import '../../config/config.css';
+
+a{
+    color: #464646; 
+}
+
+.view-account-main-div{
+    display: grid;
+    grid-template-columns: 200px auto;
+    font-family: "Amarante", cursive;
+    color: #464646; 
+    padding: 0px 35px;
+}
+.view-account-left{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    border: 1.5px solid #464646;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+.user-account-img-main{
+    display: flex;
+    justify-content: center;
+}
+.user-account-img{
+    cursor: pointer;
+    background-color: #3D3D3D;
+    color: white;
+    padding: 13px 21px;
+    border-radius: 40px;
+    font-family: "Amarante", cursive;
+    font-size: 22px;
+}
+.user-greeting-text{
+    font-family: "Carter One", cursive;
+    color: black;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.view-account-page-btn{
+    margin-bottom: 18px;
+    cursor: pointer;
+    color: #464646; 
+}
+.view-account-page-btn a{
+    color: #464646; 
+}
+.account-sign-out-btn{
+    background-color: #3D3D3D;
+    color: white;
+    padding: 6px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.view-account-right{
+    /* Delete */
+    /* border: 2px solid #3D3D3D; */
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 20px;
+    /* Delete */
+    /* border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px; */
+}
+.view-account-right-main-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.view-account-box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #3D3D3D;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.view-account-react-icon{
+    color: black;
+    font-size: 45px;
+}
+.view-account-right-main-heading{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.account-info-main-div{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.account-info-text{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.account-info-text b{
+    margin-right: 10px;
+}
+.account-info-text input{
+    font-size: 17px;
+    font-family: "Amarante", cursive;
+}
+.account-info-text button{
+    border: none;
+    outline: none;
+    background-color: #3D3D3D;
+    color: white;
+    padding: 6px 10px;
+    font-size: 15px;
+    font-family: "Amarante", cursive;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.account-text-area{
+    display: flex;
+}
+.account-text-area textarea{
+    font-size: 17px;
+    font-family: "Amarante", cursive;
+    margin-left: 10px;
+}
+.update-btn{
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+}
+
+@media screen and (max-width: 557px) {
+    .view-account-left{
+        display: none;
+    }
+    .view-account-main-div{
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .view-account-right-main-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .view-account-right-main-heading{
+        text-align: center;
+    }
+}
+
+.account-info-text select{
+    width: 90px;
+    font-size: 17px;
+    font-family: "Amarante", cursive;
+}
+.account-info-text-size{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.account-info-text-size input{
+    margin: 12px;
+}
+.sumbit-btn{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: block;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: #3D3D3D;
+    color: white;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: "Amarante", cursive;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sumbit-btn-div-addProduct{
+    margin: 20px 0px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-product-right-div1{
+    margin-bottom: 30px;
+    border: 2px solid #3D3D3D;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.account-info-text1{
+    font-size: 18px;
+}
+
+.account-info-text1 b{
+    margin-right: 5px;
+}
+
+.manage-orders-btn-div{
+    margin-top: 10px;
+}
+.manage-order-btn{
+    font-family: "Amarante", cursive;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accept-order-btn{
+    background-color: #f3f372;
+}
+.delivered-order-btn{
+    background-color: #c0ff7f;
+    margin-left: 10px;
+}
+.user-details-main-div1{
+    border: 2px solid #3D3D3D;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.product-collection-div1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}

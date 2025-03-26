@@ -1,0 +1,327 @@
+@import "../../config/config.css";
+
+.SingleProduct-div{
+    position: relative;
+}
+
+.SingleProduct-main-div{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 30px 50px;
+}
+
+.product-left-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.product-nav-btn{
+    background-color: #000000a3;
+    font-size: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-nav-btn polyline{
+    stroke: white;
+}
+
+.product-page-img{
+    width: 340px;
+    height: 430px;
+}
+
+.product-right-div{
+    margin-left: 40px;
+}
+
+.product-page-title{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 24px;
+}
+
+.product-page-category{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 15px;
+    color: #949494;
+}
+.product-prices-div{
+    display: flex;
+    align-items: baseline;
+    margin-top: 5px;
+}
+.product-page-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.product-page-original-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #212121;
+    margin-left: 10px;
+}
+
+.product-rating-icon{
+    margin-right: 4px;
+}
+
+.product-more-details{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 15px;
+    color: #949494;
+    margin-top: 1px;
+}
+
+.choose-size-div{
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 20px;
+}
+
+.choose-size-btn-div{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.choose-size{
+    font-size: 17px;
+}
+.size-btn{
+    border: 1px solid black;
+    padding: 5px 12px;
+    margin: 5px 15px;
+    margin-left: 0px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.size-btn:hover{
+    background-color: #4bad50;
+    cursor: pointer;
+}
+
+.size-chart-link{
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.select-quantity-div{
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.select-quantity-title{
+    font-size: 17px;
+}
+.select-quantity-btn-div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.product-quantity-text{
+    margin: 0px 10px;
+}
+.select-count-btn{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-family: 'Amaranth', sans-serif;
+    border-radius: 5px;
+}
+
+.select-count-btn:hover{
+    cursor: pointer;
+    background-color: #bfbfbf;
+}
+
+.product-quantity-text{
+    font-size: 16px;
+}
+
+.product-summary-main-div{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 320px;
+    height: auto;
+}
+
+.product-desc-div{
+    border: 2px solid #949494;
+    padding: 5px 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.product-desc-title{
+    font-family: "Amaranth", sans-serif;
+    font-size: 17px;
+}
+
+.product-desc-text{
+    font-family: "Amaranth", sans-serif;
+    font-size: 16px;
+    margin-top: 7px;
+    color: #909090;
+    line-height: 23px;
+}
+
+.product-desc-text span{
+    color: black;
+}
+
+.section-heading {
+    font-family: "Carter One", cursive;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-page-rating{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #4bad50;
+    padding: 2.5px 7px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 8px;
+}
+.all-product-reviews-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.see-more-div {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.product-buy-btn-div{
+    display: grid;
+    margin-top: 20px;
+}
+.add-to-cart-btn{
+    background-color: #4e4e4e;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: "Amaranth", sans-serif;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.add-to-cart-btn:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: #7a7a7a;
+}
+.wishlist-btn{
+    outline: none;
+    border: none;
+    font-family: "Amaranth", sans-serif;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid #4e4e4e;
+    margin-top: 5px;
+}
+.wishlist-btn:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: #efefef;
+}
+
+.active-size{
+    background-color: #4bad50;
+}
+
+@media screen and (max-width: 1212px) {
+    .product-summary-main-div{
+        display: none;
+    }
+    .product-buy-btn-div{
+        display: grid;
+    }
+    .SingleProduct-main-div{
+        justify-content: center;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .all-product-reviews-div {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .SingleProduct-main-div{
+        display: grid;
+        margin: 30px 0px;
+    }
+    .product-right-div{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .product-page-img{
+        width: 250px;
+        height: 330px;
+    }
+    .section-heading{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .product-page-img{
+        height: 350px;
+    }
+    .product-customer-reviews-div{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .product-page-img{
+        height: 330px;
+    }
+    .SingleProduct-main-div{
+        margin: 15px 0px;
+        padding: 0px 20px;
+    }
+    
+}

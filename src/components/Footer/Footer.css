@@ -1,0 +1,64 @@
+@import "../../config/config.css";
+
+.footer-div{
+    background-color: #1e1e1e;
+    padding: 20px 40px;
+}
+
+.footer-heading-div{
+    margin: 15px 0px;
+}
+
+.footer-heading{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    width: auto;
+    height: 38px;
+}
+.footer-logo-text{
+    color: white;
+    padding-left: 5px;
+    font-family: 'Carter One', cursive;
+    font-size: 19px;
+}
+
+.footer-links-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links-heading{
+    font-family: 'Carter One', cursive;
+    font-size: 15px;
+    color: white;
+}
+.footer-links{
+    font-family: 'Amarante', cursive;
+    font-size: 14px;
+    color: #9a9898;
+}
+
+.footer-section ul li{
+    margin: 10px 0px;
+}
+.footer-copyright-div{
+    background-color: #D9D9D9;
+    padding: 10px 0px;
+}
+.footer-copyright-text{
+    font-family: 'Amarante', cursive;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width: 583px) {
+    .footer-links-div{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

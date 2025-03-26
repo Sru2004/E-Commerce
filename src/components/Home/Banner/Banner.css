@@ -1,0 +1,92 @@
+/* Banner.css */
+
+/* Main banner container */
+.banner-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff6f61, #4a4e69); /* Gradient Background */
+    height: 100vh;
+    padding: 0 20px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Banner content styling */
+.banner-content {
+    max-width: 1000px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.banner-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+.banner-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    font-weight: 300;
+    animation: fadeIn 2s ease-out 0.5s;
+}
+
+/* Advertisement items styling */
+.banner-advertisements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.advertisement-item {
+    background-color: #ff6f61;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advertisement-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.advertisement-item h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.advertisement-item p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Add subtle animations to the advertisement items */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .banner-heading {
+        font-size: 2.5rem;
+    }
+    .banner-subheading {
+        font-size: 1.2rem;
+    }
+    .advertisement-item h2 {
+        font-size: 1.8rem;
+    }
+    .advertisement-item p {
+        font-size: 1rem;
+    }
+}

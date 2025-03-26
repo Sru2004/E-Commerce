@@ -1,0 +1,88 @@
+@import "../../../config/config.css";
+
+
+.product-card{
+    cursor: pointer;
+    width: fit-content;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 7px 7px;
+}
+
+.product-img{
+    width: auto;
+    height: 220px;
+}
+
+.product-details-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-title{
+    font-family: 'Amarante', cursive;
+    color: black;
+    font-size: 16px;
+}
+
+.product-category{
+    font-family: 'Amarante', cursive;
+    font-size: 14px;
+    color: #7E7E7E;
+}
+
+.product-price-div{
+    display: flex;
+    align-items: center;
+}
+
+.product-price{
+    font-family: 'Amarante', cursive;
+    color: black;
+    font-size: 16px;
+}
+
+.product-original-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #7E7E7E;
+    margin-left: 10px;
+}
+.like-icon{
+    font-size: 23px;
+}
+
+.product-card-right-div{
+    position: relative;
+    top: 0px;
+    left: 6px;
+}
+
+@media screen and (max-width: 467px) {
+    .product-img{
+        height: 180px;
+    }
+    .product-title{
+        font-size: 14px;
+    }
+    .product-category{
+        font-size: 12px;
+    }
+    .product-price{
+        font-size: 14px;
+    }
+    .product-original-price{
+        font-size: 12px;
+    }
+    .like-icon{
+        font-size: 20px;    
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .product-card{
+        margin: 3px;
+    }
+}

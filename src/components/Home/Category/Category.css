@@ -1,0 +1,79 @@
+@import "../../../config/config.css";
+
+.categories-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category{
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-links{
+    font-family: 'Bungee', cursive;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-links:hover{
+    background-color: #00000000;
+    color: white;
+    transition: all 0.5s;
+}
+
+.categories-img-div{
+    margin: 15px 0px;
+}
+
+.section-heading{
+    font-family: 'Carter One', cursive;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+@media screen and (max-width: 964px) {
+    .categories-img-div{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .category{
+        margin: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    .category{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .category{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .category{
+        width: 160px;
+        height: 160px;
+        margin: 3px 3px;
+    }
+}

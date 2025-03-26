@@ -1,0 +1,12 @@
+@import "../../../config/config.css";
+
+.advertise-section{
+    background-color: #468A95;
+}
+.advertise-text{
+    font-family: 'Caveat Brush', cursive;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    padding: 10px 0px;
+}
